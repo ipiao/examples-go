@@ -19,11 +19,9 @@ func TestRing(t *testing.T) {
 		next = next.Next()
 	}
 
-	pr := r
-	for i := 0; i < r.Len(); i++ {
-		t.Log(pr.Value)
-		pr = pr.Next()
-	}
+	r.Do(func(i interface{}) {
+		t.Log(i)
+	})
 }
 
 func TestHeap(t *testing.T) {
