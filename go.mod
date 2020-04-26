@@ -25,6 +25,7 @@ require (
 	github.com/micro/protoc-gen-micro/v2 v2.0.0 // indirect
 	github.com/miekg/dns v1.1.29 // indirect
 	github.com/mitchellh/mapstructure v1.2.2 // indirect
+	github.com/panjf2000/ants v1.3.0
 	github.com/smallnest/rpcx v0.0.0-20200322104434-654544af007f // indirect
 	github.com/spf13/cobra v0.0.6 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
