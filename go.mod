@@ -5,11 +5,13 @@ go 1.13
 require (
 	github.com/aliyun/alibaba-cloud-sdk-go v1.61.75 // indirect
 	github.com/armon/go-metrics v0.3.3 // indirect
+	github.com/axgle/mahonia v0.0.0-20180208002826-3358181d7394 // indirect
 	github.com/buger/jsonparser v0.0.0-20200322175846-f7e751efca13 // indirect
 	github.com/coreos/etcd v3.3.19+incompatible // indirect
 	github.com/coreos/go-systemd v0.0.0-20191104093116-d3cd4ed1dbcf // indirect
 	github.com/dustin/go-humanize v1.0.0 // indirect
 	github.com/gogo/protobuf v1.3.1 // indirect
+	github.com/golang/freetype v0.0.0-20170609003504-e2365dfdc4a0
 	github.com/golang/protobuf v1.3.5
 	github.com/hashicorp/go-hclog v0.12.1 // indirect
 	github.com/hashicorp/go-immutable-radix v1.2.0 // indirect
@@ -32,6 +34,7 @@ require (
 	go.etcd.io/etcd v3.3.19+incompatible // indirect
 	go.uber.org/zap v1.14.1 // indirect
 	golang.org/x/crypto v0.0.0-20200323165209-0ec3e9974c59 // indirect
+	golang.org/x/image v0.0.0-20190802002840-cff245a6509b
 	golang.org/x/lint v0.0.0-20200302205851-738671d3881b // indirect
 	golang.org/x/net v0.0.0-20200320220750-118fecf932d8 // indirect
 	golang.org/x/sys v0.0.0-20200323222414-85ca7c5b95cd // indirect
