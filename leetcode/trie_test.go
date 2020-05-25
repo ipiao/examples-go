@@ -1,10 +1,14 @@
 package leetcode
 
-import "testing"
+import (
+	"testing"
+
+	_261 "github.com/ipiao/examples-go/leetcode/1261"
+)
 
 func TestTrie(t *testing.T) {
 	book := []string{"WordsFrequency", "get", "geta", "gete", "get", "get", "i", "have", "a", "apple"}
-	wf := Constructor(book)
+	wf := _261.Constructor(book)
 	t.Log(wf)
 
 	t.Log("geta==", wf.Get("geta"))
