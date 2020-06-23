@@ -32,7 +32,7 @@ require (
 	github.com/spf13/cobra v0.0.6 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
 	go.etcd.io/etcd v3.3.19+incompatible // indirect
-	go.uber.org/zap v1.14.1 // indirect
+	go.uber.org/zap v1.14.1
 	golang.org/x/crypto v0.0.0-20200323165209-0ec3e9974c59 // indirect
 	golang.org/x/image v0.0.0-20190802002840-cff245a6509b
 	golang.org/x/lint v0.0.0-20200302205851-738671d3881b // indirect
@@ -44,5 +44,6 @@ require (
 	google.golang.org/grpc v1.28.0 // indirect
 	gopkg.in/cheggaaa/pb.v1 v1.0.28 // indirect
 	gopkg.in/ini.v1 v1.55.0 // indirect
+	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
 	honnef.co/go/tools v0.0.1-2020.1.3 // indirect
 )

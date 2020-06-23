@@ -13,14 +13,14 @@ HOST_3=127.0.0.1
 CLUSTER=${NAME_1}=http://${HOST_1}:2380,${NAME_2}=http://${HOST_2}:2381,${NAME_3}=http://${HOST_3}:2382
 
 # curl https://discovery.etcd.io/new?size=3
-DISCOVERY=https://discovery.etcd.io/2e7e07b94bdb96107edb6b20baa5cd3c
+DISCOVERY=https://discovery.etcd.io/aaf7408e6e8034c4c5d06416c737aa94
 
 # For node 1
 THIS_NAME=${NAME_1}
 THIS_IP=${HOST_1}
 DATADIR=${THIS_NAME}.etcd
 
-#rm -rf ${DATADIR}
+rm -rf ${DATADIR}
 
 etcd --data-dir=${DATADIR} --name ${THIS_NAME} \
   --initial-advertise-peer-urls http://${THIS_IP}:2380 \
