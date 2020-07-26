@@ -44,3 +44,16 @@ func subsets(nums []int) [][]int {
 	}
 	return ret
 }
+
+func TestSliceRangeAppend(t *testing.T) {
+	a := []int{1, 2, 3, 4}
+	for i := range a {
+		a = append(a, i)
+	}
+	t.Log(a)
+}
+
+func l(a []int) int {
+	fmt.Println("innnn")
+	return len(a)
+}

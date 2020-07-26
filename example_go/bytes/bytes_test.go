@@ -43,3 +43,10 @@ func TestBytes(t *testing.T) {
 	stt := bytes.ToTitle(s1)
 	t.Log(string(stt))
 }
+
+func TestBytesToString(t *testing.T){
+	s:="abc"
+	b:=[]byte(s)
+	b[1]='d'
+	t.Log(s)
+}
